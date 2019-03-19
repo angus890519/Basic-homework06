@@ -2,11 +2,11 @@
 /* 製作人：郭柏鋒 */
 /* 完成時間：2019/03/08 10:00*/  
 #include <stdio.h> //函示庫
-#include <stdlib.h> //函示庫int 
+#include <stdlib.h> //函示庫
 int main(void)
 {
 	int year; //定義 
-	printf("輸入一個西元年數：\n");
+	printf("輸入一個西元年數：");
 	scanf("%d" , &year); //輸入年份 
 	if(year % 400 == 0 )  //被400整除
 			printf("%d年是閏年\n",year);  
